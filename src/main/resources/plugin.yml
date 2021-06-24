@@ -1,0 +1,22 @@
+name: ClayTech
+main: cn.claycoffee.ClayTech.ClayTech
+version: 1.2.22
+api-version: 1.13
+author: gundami
+loadbefore: [ Multiverse-Core ]
+depend: [ Slimefun ]
+softdepend: [ WorldBorder ]
+commands:
+  claytech:
+    description: '粘土科技'
+    permission: claytech.basic
+permissions:
+  claytech.basic:
+    description: 'Basic command.'
+    default: true
+  claytech.checkupdate:
+    description: 'check update'
+    default: op
+  claytech.bypasstpcheck:
+    description: 'bypass planet tp check'
+    default: op
